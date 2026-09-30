@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "北京燃气信息查询",
+        "description": "请输入北京燃气的手机号和密码",
+        "data": {
+          "phone": "手机号",
+          "password": "密码"
+        }
+      },
+      "confirm_accounts": {
+        "title": "确认燃气户号",
+        "description": "发现 {count} 个燃气户号，选择要添加的户号",
+        "data": {
+          "accounts": "燃气户号"
+        }
+      },
+      "reauth_confirm": {
+        "title": "重新认证 - 北京燃气信息查询",
+        "description": "Token 已过期，请重新输入密码（手机号: {phone}）",
+        "data": {
+          "password": "密码"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接到服务器，请稍后重试",
+      "invalid_auth": "手机号或密码错误",
+      "no_accounts": "请至少选择一个燃气户号",
+      "unknown": "发生未知错误，请查看日志"
+    },
+    "abort": {
+      "already_configured": "该手机号已经配置过了",
+      "reauth_successful": "重新认证成功"
+    }
+  }
+}

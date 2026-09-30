@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Beijing Gas Information Query",
+        "description": "Please enter your Beijing Gas phone number and password",
+        "data": {
+          "phone": "Phone number",
+          "password": "Password"
+        }
+      },
+      "confirm_accounts": {
+        "title": "Confirm Gas Accounts",
+        "description": "Found {count} gas accounts, select the ones to add",
+        "data": {
+          "accounts": "Gas accounts"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate - Beijing Gas",
+        "description": "Token expired, please re-enter password (phone: {phone})",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to server, please try again later",
+      "invalid_auth": "Invalid phone number or password",
+      "no_accounts": "Please select at least one gas account",
+      "unknown": "Unknown error occurred, please check the logs"
+    },
+    "abort": {
+      "already_configured": "This phone number has already been configured",
+      "reauth_successful": "Re-authentication successful"
+    }
+  }
+}
